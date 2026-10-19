@@ -1,0 +1,22 @@
+name: attendance_demo_app
+description: A demo Flutter app for tracking student attendance locally (mock data).
+publish_to: 'none'
+version: 0.1.0+1
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.1.1
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/attendance_app_data.json
